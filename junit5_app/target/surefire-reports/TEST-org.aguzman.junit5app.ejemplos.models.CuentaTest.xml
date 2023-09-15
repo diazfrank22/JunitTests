@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="5.322" tests="72" errors="0" skipped="12" failures="12">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\fdiaz\projects\junit5_app\target\test-classes;C:\Users\fdiaz\projects\junit5_app\target\classes;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\fdiaz\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\fdiaz\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="C:\Users\fdiaz\OneDrive - Interbanking S.A\Documentos\IDEs\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\fdiaz\AppData\Local\Temp\surefire17802355664008564650\surefirebooter1425553703803246036.jar C:\Users\fdiaz\AppData\Local\Temp\surefire17802355664008564650 2023-06-26T17-53-17_353-jvmRun1 surefire9248106051084858736tmp surefire_06458885208153861537tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\fdiaz\projects\junit5_app\target\test-classes;C:\Users\fdiaz\projects\junit5_app\target\classes;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\fdiaz\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\fdiaz\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\fdiaz\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\fdiaz"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Users\fdiaz\OneDrive - Interbanking S.A\Documentos\IDEs\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\fdiaz\projects\junit5_app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\fdiaz\AppData\Local\Temp\surefire17802355664008564650\surefirebooter1425553703803246036.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="fdiaz"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="C:\Users\fdiaz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\fdiaz\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\fdiaz\projects\junit5_app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\fdiaz\OneDrive - Interbanking S.A\Documentos\IDEs\sts-4.17.2.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/fdiaz/OneDrive - Interbanking S.A/Documentos/IDEs/sts-4.17.2.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin/server;C:/Users/fdiaz/OneDrive - Interbanking S.A/Documentos/IDEs/sts-4.17.2.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230125-1136/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Users\fdiaz\AppData\Local\Microsoft\WindowsApps;C:\Users\fdiaz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\fdiaz\maven\apache-maven-3.8.6\bin;;C:\Users\fdiaz\OneDrive - Interbanking S.A\Documentos\IDEs\sts-4.17.2.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.043"/>
+  <testcase name="testSaldoCuentaDev" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest.testSaldoCuentaDev(CuentaTest.java:278)
+</skipped>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev2" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.003"/>
+  <testcase name="testRelacionBancoCuentas" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.007"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.022"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.003">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:374)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.002"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest" time="0.001"/>
+  <testcase name="pruebaTimeout2" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.913"/>
+  <testcase name="testTimeoutAssertions" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="4.012"/>
+  <testcase name="pruebaTimeout" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$EjemploTimeoutTest" time="0.106"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.002">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:340)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+200 -> 100
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:340)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+300 -> 300
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:340)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+750 -> 700
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:341)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+1000.12345 -> 1000.12345
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource(CuentaTest.java:327)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+6 -> 1000.12345
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[7]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource(CuentaTest.java:349)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:361)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:361)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.002">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:361)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:363)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource{String}[1]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaValueSource{String}[2]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaValueSource{String}[3]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaValueSource{String}[4]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaValueSource{String}[5]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaValueSource{String}[6]" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest" time="0.002">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaValueSource(CuentaTest.java:318)
+]]></failure>
+    <system-out><![CDATA[iniciando el metodo.
+finalizando el metodo de prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testProcesadores" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0">
+    <skipped message="Environment variable [NUMBER_OF_PROCESSORS] with value [16] does not match regular expression [8]"/>
+  </testcase>
+  <testcase name="testEnv" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0">
+    <skipped message="Environment variable [ENVIRONMENT] does not exist"/>
+  </testcase>
+  <testcase name="testEnvProdDisabled" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.001"/>
+  <testcase name="testJavaHome" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0">
+    <skipped message="Environment variable [JAVA_HOME] with value [C:\Program Files\Java\jdk1.8.0_161] does not match regular expression [.*jdk-15.0.1.*]"/>
+  </testcase>
+  <testcase name="imprimirVariablesAmbiente" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$VariableAmbienteTest" time="0.003"/>
+  <testcase name="testDev" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0">
+    <skipped message="System property [ENV] does not exist"/>
+  </testcase>
+  <testcase name="testNO64" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0">
+    <skipped message="System property [os.arch] with value [amd64] does not match regular expression [.*32.*]"/>
+  </testcase>
+  <testcase name="testUsername" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0">
+    <skipped message="System property [user.name] with value [fdiaz] does not match regular expression [aguzm]"/>
+  </testcase>
+  <testcase name="testJavaVersion" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0">
+    <skipped message="System property [java.version] with value [17.0.6] does not match regular expression [.*15.*]"/>
+  </testcase>
+  <testcase name="imprimirSystemProperties" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0.002"/>
+  <testcase name="testSolo64" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemPropertiesTest" time="0.001"/>
+  <testcase name="soloJDK15" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 17.0.6"/>
+  </testcase>
+  <testcase name="soloJdk8" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 17.0.6"/>
+  </testcase>
+  <testcase name="testNoJDK15" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$JavaVersionTest" time="0"/>
+  <testcase name="testNoWindows" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemaOperativoTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloLinuxMac" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemaOperativoTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$SistemaOperativoTest" time="0"/>
+  <testcase name="testCreditoCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaOperacionesTest" time="0"/>
+  <testcase name="testDebitoCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaOperacionesTest" time="0.001"/>
+  <testcase name="testTransferirDineroCuentas" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaOperacionesTest" time="0"/>
+  <testcase name="testSaldoCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaTestNombreSaldo" time="0"/>
+  <testcase name="testReferenciaCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaTestNombreSaldo" time="0"/>
+  <testcase name="testNombreCuenta" classname="org.aguzman.junit5app.ejemplos.models.CuentaTest$CuentaTestNombreSaldo" time="0.001"/>
+</testsuite>
